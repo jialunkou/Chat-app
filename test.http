@@ -1,0 +1,29 @@
+@url=http://localhost:3001/api
+
+@json=Content-Type: application/json
+###  check information of users from database
+get {{url}}/users
+###  register
+post {{url}}/register
+{{json}}
+
+{
+
+"uname":"kou1",
+"pwd":"123456"
+
+}
+
+###  log in
+post {{url}}/login
+{{json}}
+
+{
+"uname":"user3",
+"pwd":"123456" 
+}
+
+###  by using token ,directly visit individual information from database without password and username
+
+get {{url}}/profile
+Authorization: Bearar eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxYmY3NjVlOTNmZDVmN2ViNmVmODk0MyIsImlhdCI6MTYzOTkzNzg2NH0.OsNcRCG1kVkj-Kv8ZUgd3GS8xxmWcNUhVYcJQIm1ydA
