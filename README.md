@@ -14,11 +14,14 @@ Make sure to have Node.js installed as well as the following modules :
 
 you could download these modules by using npm install 
 
-nodemon server.js   ---- start to run Chat App
+nodemon server.js   ---- input this commend ，and start to run Chat App
+then you will find the link http://localhost:3001  on Terminal   , Then  Ctrl + click 
+a webpage will automatically open , you could try to  open multiple webepage
 
 Features and Stuff
-1.Login, register
-2.don't forget to choose yuor own avatar when you login
-3.start private communication by click other users avatar
-4.notify message'new user join romm 'and notify nessage ' someone leave room'
+1.Login, register , before login please first to register. 
+2.don't forget to choose yuor own avatar when you login!!
+3.start private communication by click other users avatar at left user list  
+4.when some one join the room or leave the room , there are  two message will be seen at chat room :
+notify message'new user join romm 'and notify nessage ' someone leave room'
 5.Encryption message , password 
